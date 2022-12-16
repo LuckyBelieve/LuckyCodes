@@ -1,0 +1,4 @@
+https://www.geeksforgeeks.org/how-to-declare-variables-in-different-ways-in-javascript/
+
+
+geeksforgeeks reference on different ways of decraring a variable
