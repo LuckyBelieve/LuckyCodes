@@ -19,4 +19,4 @@ function hisfunction(){
     document.getElementById('you').innerHTML="Welcome to our website";
 }
 document.write(x);
-console.log("git trial");
+
