@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#content{
+    margin: 40px;
+    width: 300px;
+    height: auto;
+    border: 2px solid rgb(62, 91, 136);
+    border-radius: 10px;
+    background-color: rgb(27, 44, 38);
+    box-shadow: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+h1{
+    color: antiquewhite;
+    letter-spacing: 1px;
+}
+.number-entered{
+    font-size: 3rem;
+    color:burlywood ;
+}
+.increment-btn{
+    width: auto;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+    border: 2px solid white;
+    border-radius: 10px;
+}
