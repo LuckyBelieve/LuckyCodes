@@ -26,7 +26,7 @@ h1{
 }
 .number-entered{
     font-size: 3rem;
-    color:burlywood ;
+    color:rgb(190, 153, 105) ;
 }
 .increment-btn{
     width: auto;
@@ -34,6 +34,6 @@ h1{
     font-size: 15px;
     margin-bottom: 10px;
     background-color: aquamarine;
-    border: 2px solid white;
+    border: 2px solid whitesmoke;
     border-radius: 10px;
 }
