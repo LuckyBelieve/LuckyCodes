@@ -1,9 +1,9 @@
 
 const increBtn = document.querySelector('.increment-btn');
-// console.log(increBtn);
+console.log(increBtn);
 
 let count = document.querySelector('.number-entered');
-// console.log(count);
+console.log(count);
 
 countEl = 0;
 
