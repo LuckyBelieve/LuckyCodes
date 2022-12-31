@@ -16,4 +16,35 @@ function mynonVowel(word){
     return nonVowelString;
 
 }
-console.log(mynonVowel('academy'));
+console.log(mynonVowel('happiness'));
+
+function maxSentence(myword){
+   let myArray = myword.split(" ");
+    let maxWord = 0;
+    let longWord;
+
+    for(let x=0;x<myArray.length;x++){
+        if(myArray[x].length>maxWord){
+            maxWord = myArray[x].length;
+            longWord = myArray[x];
+        }
+    }
+    return longWord;
+
+}
+console.log(maxSentence('the favourite franchise and  it it is very intresting at all'));
+
+//reversing a string and removing all of it's vowel
+
+function reversed(myword){
+    let reversedString=''
+    for(let y=myword.length-1;y>0;y--){
+        let nonVowel = myword[y].toLowerCase();
+        if(nonVowel =='a' || nonVowel =='e' || nonVowel =='i' || nonVowel =='u' || nonVowel =='o'){
+            continue;
+        }
+        reversedString+=myword[y];
+    }
+    return reversedString;
+}
+console.log(reversed('AcaDemy'));
