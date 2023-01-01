@@ -17,7 +17,10 @@ function mynonVowel(word){
 
 }
 console.log(mynonVowel('happiness'));
+  
 
+ // a function that finds the long word in a sentence
+ 
 function maxSentence(myword){
    let myArray = myword.split(" ");
     let maxWord = 0;
