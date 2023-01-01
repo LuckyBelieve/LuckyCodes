@@ -35,6 +35,6 @@ button.addEventListener('click',decrement);
 
 let newPassenger = document.querySelector('#newNumber')
 function newPassengers(){
-   newPassenger.innerText = count.innerText - number.innerText;
+   newPassenger.innerText = count - number;
 }
 button.addEventListener('click',newPassengers)
